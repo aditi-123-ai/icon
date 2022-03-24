@@ -1,0 +1,144 @@
+.subtotal__detail {
+  width: 100%;
+  margin-top: 25px;
+  height: auto;
+  min-height: 50vh;
+}
+
+.subtotal__details--header {
+  width: 100%;
+  height: 5vh;
+}
+
+.subtotal__details--header h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.subtotal__details--box {
+  width: 100%;
+  height: auto;
+  min-height: 38vh;
+  border: 3px solid #ada49a;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.subtotal__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subtotal__subtotal {
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(207, 207, 207);
+}
+
+.subtotal__subtotal--left h5 {
+  font-weight: bold;
+  color: #6b6761;
+}
+
+.subtotal__subtotal--right p {
+  font-size: 1.3rem;
+}
+
+.subtotal__shipping {
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(207, 207, 207);
+}
+
+.subtotal__shipping--left h5 {
+  font-weight: bold;
+  color: #6b6761;
+}
+
+.subtotal__shipping--right p {
+  font-size: 1.3rem;
+}
+
+.subtotal__discount {
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(207, 207, 207);
+}
+
+.subtotal__discount--left h5 {
+  font-weight: bold;
+  color: #6b6761;
+}
+
+.subtotal__discount--right p {
+  font-size: 1.3rem;
+}
+
+.subtotal__total {
+  margin-top: 50px;
+}
+
+.subtotal__total--left h5 {
+  font-weight: bold;
+}
+
+.subtotal__total--right p {
+  font-size: 1.3rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.subtotal__button {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtotal__button button {
+  width: 100%;
+  height: 5vh;
+  border-radius: 8px;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  background-color: #ddcebd;
+  transition: all 0.2s ease;
+}
+
+.subtotal__button a {
+  width: 100%;
+  height: 5vh;
+  border-radius: 8px;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  background-color: #ddcebd;
+  transition: all 0.2s ease;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtotal__button a:hover {
+  background-color: #bdafa0;
+}
+
+@media screen and (max-width: 1280px) {
+  .subtotal__detail {
+    margin-bottom: 8vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .subtotal__details--box {
+    padding: 20px;
+  }
+  .subtotal__details--header {
+    height: 7vh;
+  }
+  .subtotal__button a {
+    height: 8vh;
+    width: 98%;
+  }
+}

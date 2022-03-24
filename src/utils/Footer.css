@@ -1,0 +1,149 @@
+.footer {
+  margin-top: -11.7vh;
+  width: 100%;
+  height: auto;
+  background-color: #242529;
+  overflow: hidden;
+  min-height: 35vh;
+}
+
+.footer__container {
+  display: flex;
+  width: 100%;
+}
+
+.footer__info {
+  padding-top: 3rem;
+  width: 33.3334%;
+  border-bottom: 1px solid rgb(73, 73, 73);
+  border-right: 1px solid rgb(73, 73, 73);
+  text-align: center;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+
+}
+
+
+.footer__info--header h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-bottom: 2rem;
+}
+
+.footer__info--main p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.footer__info--main {
+  margin-bottom: 2.5rem;
+}
+
+.footer__social {
+  padding-top: 3rem;
+  color: #fff;
+  text-align: center;
+  width: 33.3334%;
+  border-bottom: 1px solid rgb(73, 73, 73);
+  border-right: 1px solid rgb(73, 73, 73);
+  font-family: "Raleway", sans-serif;
+  margin-top: 30px;
+}
+
+.footer__social--logos {
+  cursor: pointer;
+}
+
+.footer__social--header h4 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__newsletter {
+  padding-top: 3rem;
+  width: 33.3334%;
+  border-bottom: 1px solid rgb(73, 73, 73);
+  border-right: 1px solid rgb(73, 73, 73);
+  margin-top: 20px;
+}
+
+.footer__newsletter--header {
+  text-align: center;
+  color: #fff;
+}
+
+.footer__newsletter--header h4 {
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.footer__newsletter--input {
+  margin: 1.4rem 2rem;
+}
+
+.input__footer {
+  background: transparent;
+  font-family: "Raleway", sans-serif;
+}
+
+.input__footer:focus {
+  background: transparent;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.input__footer--btn {
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  text-align: center;
+  color: #fff;
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer__bottom p span {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #d89011;
+
+  box-shadow: 10px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.social--icons:hover {
+  fill: #d89011;
+}
+
+.social--iconsInstagram:hover{
+  fill: #E1306C;
+}
+
+@media screen and (max-width: 1050px) {
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__info {
+    width: 100%;
+  }
+  .footer__social {
+    width: 100%;
+    padding-top: 0;
+    padding: 25px 0;
+  }
+  .footer__newsletter {
+    width: 100%;
+    padding-top: 0;
+    padding: 25px 0;
+  }
+  .input__footer--btn {
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+  }
+}

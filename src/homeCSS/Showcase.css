@@ -1,0 +1,33 @@
+.showcase {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #F6F6F6;
+}
+
+.showcase__area {
+  margin: 4% 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.showcase__area img {
+  border-radius: 20px;
+  width: 40%;
+  max-width: 40%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .showcase__area {
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .showcase__area img {
+    margin-bottom: 5%;
+    width: 80%;
+    max-width: 80%;
+  }
+}

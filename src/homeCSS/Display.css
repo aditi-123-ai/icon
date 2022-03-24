@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+
+.display {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+}
+
+.display__one {
+  background-color: #f6f6f6;
+  padding: 15px;
+  
+}
+
+.display__two {
+  background-color: #f9efe3;
+  padding: 15px;
+  
+}
+
+.display__one img {
+  height: 20vh;
+  transition: all 0.4s ease-in;
+  object-fit: contain;
+}
+
+.display__two img {
+  height: 20vh;
+  transition: all 0.4s ease-in;
+  object-fit: contain;
+}
+
+.display__one:hover img {
+  transform: scale(1.08);
+}
+
+.display__two:hover img {
+  transform: scale(1.08);
+}
+
+.display__col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display__col p{
+  margin-top: 10px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.one__details {
+  margin-top: 5rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.two__details {
+  margin-top: 5rem;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.one__details h2 {
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.two__details h2 {
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.one__details h3 {
+  font-size: 3.1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.two__details h3 {
+  font-size: 3.1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+.one__details .one__href {
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  background-image: linear-gradient(to top, #0c002b, #1779ff);
+  background-clip: text;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.1s ease;
+  border-bottom: 2px solid #1779ff;
+}
+
+.two__details .two__href {
+  font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  background-image: linear-gradient(to top, #0c002b, #1779ff);
+  background-clip: text;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.1s ease;
+  border-bottom: 2px solid #1779ff;
+}
+
+@media screen and (max-width: 768px) {
+  .display{
+     margin-bottom: 180px;
+  }
+}

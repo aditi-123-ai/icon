@@ -1,0 +1,29 @@
+.trending {
+  padding: 4rem;
+  width: 100%;
+  height: auto;
+}
+
+.trending .trending__heading h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .trending {
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+    margin-top: -20vh;
+  }
+
+  .cardTrending__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

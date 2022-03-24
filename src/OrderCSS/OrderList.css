@@ -1,0 +1,18 @@
+tr td {
+  vertical-align: middle;
+}
+.order__details--btn {
+  padding: 10px 13px;
+  border-radius: 5px;
+  background-color: #ddcebd;
+  outline: none;
+  font-weight: 600;
+  outline: 0;
+  border: 0;
+}
+.order__details--btn:hover {
+  background-color: #b3a5a5;
+}
+.order__details--btn:focus {
+  outline: none;
+}

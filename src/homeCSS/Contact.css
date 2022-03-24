@@ -1,0 +1,267 @@
+.contact__main {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact__main--container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contact__page {
+  width: 95%;
+  height: auto;
+  min-height: 70vh;
+  margin-top: 5%;
+}
+
+.contact__left,
+.contact__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact__left h1,
+.contact__right h1 {
+  font-weight: bold;
+}
+
+.contact__left--description {
+  width: 80%;
+  margin-top: 10px;
+  color: #867d71;
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.contact__right--inputContainer {
+  margin-top: 5%;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.input {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  line-height: 10px;
+  padding: 13px;
+  width: 85%;
+  border-radius: 10px;
+  border: 0.3px solid rgba(128, 128, 128, 0.664);
+  outline: none;
+}
+.contact__right--textArea {
+  font-weight: 500;
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-start;
+  text-align: top;
+  width: 84.5%;
+  border-radius: 10px;
+  border: 0.3px solid rgba(128, 128, 128, 0.664);
+  outline: none;
+  padding: 10px 0 4rem 10px;
+  margin-bottom: 20px;
+}
+
+.contact__right--textArea:focus{
+  border: 2px solid #000;
+}
+
+textarea {
+  resize: none;
+}
+
+.des-lines-right {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+  color: darkgrey;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.contact__right--button {
+  width: 85%;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact__right--button button {
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  width: 8rem;
+  padding: 9px 5px;
+  background-color: #ddcebd;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-in;
+}
+
+.contact__right--button button:hover {
+  background-color: #000;
+  color: #ddcebd;
+  font-weight: bold;
+}
+
+.contact__left--iconsContainer {
+  width: 95%;
+  height: auto;
+}
+
+.contact__iconContainer {
+  width: 80%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.contact__icon {
+  margin-right: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.contact__icon::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #ddcebd;
+  border-radius: 50%;
+  margin-right: -0.5rem;
+  margin-top: -0.5rem;
+  z-index: -1;
+}
+
+.contact__icon--email {
+  margin-right: calc(20px + 0.2rem);
+}
+
+.contact__iconContainer img {
+  width: 4rem;
+}
+
+.contact__icon--email img {
+  width: 3.8rem;
+}
+
+.contact__IconDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.contact__IconDetails span {
+  color: #867d71;
+  font-weight: bold;
+}
+
+.contact__IconDetails p {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.contact__socials{
+  width: 100%;
+  height: 10vh;
+  margin: 3vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__social--icons{
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  align-items: center;
+}
+
+.contact__social--icons svg{
+  font-size: 3rem;
+  cursor: pointer;
+  fill: #867d71;
+  transition: all 0.2s ease-in;
+}
+
+.contact__social--icons svg:hover{
+  transform: scale(1.1);
+}
+
+.contact__social--animation{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.contact__social--animation p{
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  transition: all 0.2s ease-in;
+  font-weight: bold;
+  color: #706b64;
+}
+
+.contact__social--animation:hover p{
+  opacity: 1;
+  top: 100%;
+}
+
+@media screen and (max-width: 1500px){
+  .contact__right--textArea{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .contact__page{
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .contact__left{
+    margin-bottom: 10%;
+  }
+  .contact__IconDetails p{
+    font-size: 1.1rem;
+  }
+  .contact__right--button{
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contact__page {
+    margin-top: 30%;
+  }
+  .contact__social--icons svg{
+    font-size: 2.3rem;
+  }
+  .contact__social--icons{
+    width: 80%;
+  }
+}

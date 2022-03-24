@@ -1,0 +1,93 @@
+.item{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+
+.owl-carousel:not(.no-nav):not(.nav-top):not(.mad-simple-slideshow) {
+  padding-left: 4.24rem;
+  padding-right: 4.25rem;
+  width: 100%;
+  height: 100%;
+}
+
+
+.owl-carousel .owl-nav button.owl-prev {
+  right: auto;
+  left: 0;
+}
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.owl-stage{
+  transform: translate3d(-824px, 0px, 0px);
+  transition: all 0s ease 0s;
+  width: 2885px;
+  height: 100%;
+}
+
+.owl-item{
+  width: 100%;
+  height: 80%;
+  border-radius: 50px;
+  margin-right: 32px !important;
+}
+
+.mad-product-categories.owl-carousel .owl-item {
+  float: none;
+}
+
+.owl-carousel.owl-carousel .owl-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.owl-carousel .owl-nav button span{
+  color: #2e3133;
+  font-weight: bold;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  right: 0;
+  left: auto;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -1rem;
+  background: #dce3e6;
+  color: #2e3133;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover{
+background-color: #ddcebd;
+}
+
+
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled {
+  display: inline !important;
+}
